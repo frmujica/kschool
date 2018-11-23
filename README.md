@@ -3,6 +3,6 @@ Kschool Environment
 
 #Datos
 
-autor:	Francisco Mújica
+<li>Autor:	Francisco Mújica</li>
 <br>
-Fecha:	23/11/2018
+<li>Fecha:	23/11/2018</li>
