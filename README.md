@@ -6,3 +6,5 @@ Kschool Environment
 <li>Autor:	Francisco Mújica</li>
 <br>
 <li>Fecha:	23/11/2018</li>
+
+<hr>
