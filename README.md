@@ -39,7 +39,7 @@ Y ejecutaremos <b>"./publicar_GHUB.sh kschool"</b>
 
 EL SCRIPT NO SUBIRÁ LOS FICHEROS OCULTOS!!!
 
-<code>
+<pre>
 
 #!/bin/sh
 
@@ -104,7 +104,7 @@ git commit -m "Mensaje de Commit"
 # PUSH. NOS PEDIRA USUARIO Y CLAVE DE GITHUB
 git push
 
-</code>
+</pre>
 
 
 
