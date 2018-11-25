@@ -39,6 +39,8 @@ Y ejecutaremos <b>"./publicar_GHUB.sh kschool"</b>
 
 EL SCRIPT NO SUBIRÁ LOS FICHEROS OCULTOS!!!
 
+EL SCRIPT SUBE LOS SUBDIRECTORIOS TAMBIEN
+
 <pre>
 
 #!/bin/sh
