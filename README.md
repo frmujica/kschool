@@ -9,14 +9,13 @@ Kschool Environment
 
 <hr>
 
-<li>publicar_GHub.sh carpeta_a_publicar
+<li>Sintaxis:  publicar_GHub.sh carpeta_a_publicar
 
+<li>Este admite como parametro la ruta de una carpeta.</li>
 
-<li>Este admite como parametro la ruta de una carpeta.
+<li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la tu GITHUB.</li>
 
-<li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la tu GITHUB
-
-<li>Finalmente para publicar en GITHUB nos pedira nuestro uusuario y nuestra clave de GITHUB
+<li>Finalmente para publicar en GITHUB nos pedira nuestro uusuario y nuestra clave de GITHUB</li>
 
 <br>
 <br>
