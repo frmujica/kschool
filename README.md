@@ -13,21 +13,21 @@ Script para automatizar las publicaciones en GITHUB 1.0
 
 <li>SINTAXIS:  <b>./publicar_GHub.sh carpeta_a_publicar</b></li>
 
-<li>Este admite como parametro la ruta de una carpeta.</li>
+<li>Este admite como parametro la ruta de una carpeta a publicar.</li>
 
-<li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la tu GITHUB.</li>
+<li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la lista de elementos a cargar en tu GITHUB.</li>
 
-<li>Finalmente para publicar en GITHUB nos pedira nuestro usuario y nuestra clave de GITHUB</li>
-
-<br>
-<br>
-
-Antes de probar el script, debes de editar el fihcero y asignar tu nombre y correo de GITHUB correspondiente y a las variables <b>"NOMBRE" </b> e <b>"EMAIL"</b> respectivamente.
+<li>Finalmente para publicar en GITHUB nos pedira nuestro usuario y nuestra clave de GITHUB para poder publicar lo cambios</li>
 
 <br>
 <br>
 
-Ejemplo:
+Antes de probar el script, debes de editar el fichero y asignar tu nombre y correo de GITHUB correspondiente y a las variables <b>"NOMBRE" </b> e <b>"EMAIL"</b> respectivamente.
+
+<br>
+<br>
+
+EJEMPLO:
 
 <br>
 
@@ -43,9 +43,21 @@ Ejemplo:
 
 <br>
 
-EL SCRIPT NO SUBIRÁ LOS FICHEROS OCULTOS!!!
+EL SCRIPT <b>NO</b> SUBIRÁ LOS FICHEROS OCULTOS!!!
 
 EL SCRIPT SUBE LOS SUBDIRECTORIOS TAMBIEN
+
+
+MEJORAS:
+
+- Añadir Usuario y Clave de publición como parametros
+
+- Añadir parametros para indicar Nombre y Correo de GITHUB
+
+- Añadir parametro para eliminar una carepta de GITHUB
+
+- añadir parametro para descargar una copia de GIHUB
+
 
 <pre>
 
