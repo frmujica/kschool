@@ -15,14 +15,16 @@ Script para automatizar las publicaciones en GITHUB 1.0
 
 <li>Este admite como parametro la ruta de una carpeta a publicar.</li>
 
-<li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la lista de elementos a cargar en tu GITHUB.</li>
+<li>El script entrará en la carpeta que se le pasa como parametro, recorrerá recursivamente ficheros y subcareptas y las añadira a la lista de elementos a cargar en tu GITHUB.</li>
 
 <li>Finalmente para publicar en GITHUB nos pedira nuestro usuario y nuestra clave de GITHUB para poder publicar lo cambios</li>
 
 <br>
 <br>
 
-Antes de probar el script, debes de editar el fichero y asignar tu nombre y correo de GITHUB correspondiente y a las variables <b>"NOMBRE" </b> e <b>"EMAIL"</b> respectivamente.
+REQUESITOS:
+
+Antes de probar el script, debes de editar el fichero "publicar_GHub.sh" y asignar tu nombre y correo de GITHUB correspondiente y a las variables <b>"NOMBRE" </b> e <b>"EMAIL"</b> respectivamente.
 
 <br>
 <br>
@@ -106,7 +108,8 @@ fi
 git config --global user.name $NOMBRE
 git config --global user.email $EMAIL
 
-# AÑADIMOS LOSFICHEROS Y CARPETAS DE LA RUTA QUE NOS HA ENTRADO COMO PARAMETRO
+# AÑADIMOS LOS FICHEROS Y CARPETAS DE LA RUTA QUE NOS HA ENTRADO COMO PARAMETRO
+# NO RECORREMOS CARPETAS OCULTAS
 for i in $(find . -not -path '*/\.*')
 do
 	if [ $i != "." ] && [ $i != ".."  ]
@@ -117,7 +120,8 @@ do
 done
 
 # COMMIT
-git commit -m "Mensaje de Commit"
+MSG_COMMIT = date +%Y-%m-%d
+git commit -m "$MSG_COMMIT
 
 # PUSH. NOS PEDIRA USUARIO Y CLAVE DE GITHUB
 git push
