@@ -52,6 +52,8 @@ EL SCRIPT SUBE LOS SUBDIRECTORIOS TAMBIEN
 
 MEJORAS:
 
+- Susituir el bucle "for" que recorre la lista de ficheros de la carpeta a publicar por un "exec" al final del comando "find" para que añada los ficheros a la lista de ficheros a cargar en GITHUB.
+
 - Añadir Usuario y Clave de publición como parametros
 
 - Añadir parametros para indicar Nombre y Correo de GITHUB
