@@ -30,7 +30,7 @@ Ejemplo:
 
 <br>
 
-* Si nuestros projectos se encuentra en la carpeta "/home/dsc/Repos/<b>kschool</>/"
+* Si nuestros projectos se encuentra en la carpeta "/home/dsc/Repos/<b>kschool</b>"
 <br>
 * Copiaremos este script en este carpeta <b>"/home/dsc/Repos/"</b>
 <br>
