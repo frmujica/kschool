@@ -1,7 +1,7 @@
 # kschool
 Kschool Environment
 
-#Datos
+# Datos
 
 <li>Autor:	Francisco Mújica</li>
 <br>
