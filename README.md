@@ -44,8 +44,8 @@ EL SCRIPT NO SUBIRÁ LOS FICHEROS OCULTOS!!!
 #!/bin/sh
 
 DIRECTORIO=""
-NOMBRE="Francisco Mujica"
-EMAIL="frmujica@outlook.es"
+NOMBRE="TU NOMBRE EN GITHUB"
+EMAIL="TU CORREO EN GITHUB"
 
 
 # CHEQUEAMOS QUE TENEMOS UN NOMBRE DE USUARIO DE GITHUB CONFIGURADO
@@ -70,7 +70,7 @@ then
 else
   	DIRECTORIO=$1
 
-	# COMPROBAMOS QUE PODEMOS ENTAR EN LA CARPATA DE ENTRADA DONDE ESTA NUESTRO PROYECTO
+# COMPROBAMOS QUE PODEMOS ENTAR EN LA CARPATA DE ENTRADA DONDE ESTA NUESTRO PROYECTO
 	if ! cd $DIRECTORIO
 	then
 		echo "Carpeta no valida"
@@ -78,7 +78,7 @@ else
 	else 
 		echo "Ruta a cargar en GITHUB: $PWD"
 	fi
- 
+
 fi
 
 
@@ -87,7 +87,6 @@ git config --global user.name $NOMBRE
 git config --global user.email $EMAIL
 
 # AÑADIMOS LOSFICHEROS Y CARPETAS DE LA RUTA QUE NOS HA ENTRADO COMO PARAMETRO
-# for i in $(find . -maxdepth 1)
 for i in $(find . -not -path '*/\.*')
 do
 	if [ $i != "." ] && [ $i != ".."  ]
@@ -95,7 +94,6 @@ do
 		echo "Añadido: $i"
 		git add $i --force
 	fi
-#	
 done
 
 # COMMIT

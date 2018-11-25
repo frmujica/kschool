@@ -52,7 +52,6 @@ do
 		echo "Añadido: $i"
 		git add $i --force
 	fi
-#	
 done
 
 # COMMIT
