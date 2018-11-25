@@ -30,11 +30,11 @@ Ejemplo:
 
 <br>
 
-Si nuestros projectos se encuentra en la carpeta "/home/dsc/Repos/kschool/"
+* Si nuestros projectos se encuentra en la carpeta "/home/dsc/Repos/<b>kschool</>/"
 <br>
-Copiaremos este script en este carpeta "/home/dsc/Repos/"
+* Copiaremos este script en este carpeta <b>"/home/dsc/Repos/"</b>
 <br>
-Y ejecutaremos <b>"./publicar_GHUB.sh kschool"</b>
+* Y ejecutaremos <b>"./publicar_GHUB.sh kschool"</b>
 <br>
 
 EL SCRIPT NO SUBIRÁ LOS FICHEROS OCULTOS!!!
