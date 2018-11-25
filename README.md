@@ -120,8 +120,7 @@ do
 done
 
 # COMMIT
-MSG_COMMIT = date +%Y-%m-%d
-git commit -m "$MSG_COMMIT
+git commit -m "Working Process: $(date +%Y-%m-%d)"
 
 # PUSH. NOS PEDIRA USUARIO Y CLAVE DE GITHUB
 git push
