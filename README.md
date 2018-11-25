@@ -5,17 +5,19 @@ Kschool Environment
 
 <li>Autor:	Francisco Mújica</li>
 <br>
-<li>Fecha:	23/11/2018</li>
+<li>Fecha:	25/11/2018</li>
 
 <hr>
 
-<li>Sintaxis:  publicar_GHub.sh carpeta_a_publicar
+Script para automatizar las publicaciones en GITHUB 1.0
+
+<li>SINTAXIS:  <b>./publicar_GHub.sh carpeta_a_publicar</b></li>
 
 <li>Este admite como parametro la ruta de una carpeta.</li>
 
 <li>El script entrará en la carpeta, recorrerá recursivamente ficheros y subcareptas y las añadira a la tu GITHUB.</li>
 
-<li>Finalmente para publicar en GITHUB nos pedira nuestro uusuario y nuestra clave de GITHUB</li>
+<li>Finalmente para publicar en GITHUB nos pedira nuestro usuario y nuestra clave de GITHUB</li>
 
 <br>
 <br>

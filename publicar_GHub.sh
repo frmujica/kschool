@@ -1,8 +1,8 @@
 #!/bin/sh
 
 DIRECTORIO=""
-NOMBRE="Francisco Mujica"
-EMAIL="frmujica@outlook.es"
+NOMBRE="TU NOMBRE EN GITHUB"
+EMAIL="TU_CUENTA_DE_CORREO_EN_GITHUB"
 
 
 # CHEQUEAMOS QUE TENEMOS UN NOMBRE DE USUARIO DE GITHUB CONFIGURADO
@@ -55,7 +55,7 @@ do
 done
 
 # COMMIT
-git commit -m "Mensaje de Commit"
+git commit -m "Working Process"
 
 # PUSH. NOS PEDIRA USUARIO Y CLAVE DE GITHUB
 git push
