@@ -112,14 +112,17 @@ git config --global user.email $EMAIL
 
 # AÑADIMOS LOS FICHEROS Y CARPETAS DE LA RUTA QUE NOS HA ENTRADO COMO PARAMETRO
 # NO RECORREMOS CARPETAS OCULTAS
-for i in $(find . -not -path '*/\.*')
-do
-	if [ $i != "." ] && [ $i != ".."  ]
-	then
-		echo "Añadido: $i"
-		git add $i --force
-	fi
-done
+
+find . -not -path '*/\.*' -exec git add {} \; -exec echo {} \;
+
+#for i in $(find . -not -path '*/\.*')
+#do
+#	if [ $i != "." ] && [ $i != ".."  ]
+#	then
+#		echo "Añadido: $i"
+#		git add $i --force
+#	fi
+#done
 
 # COMMIT
 git commit -m "Working Process: $(date +%Y-%m-%d)"
