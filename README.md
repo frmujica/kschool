@@ -115,6 +115,8 @@ git config --global user.email $EMAIL
 
 find . -not -path '*/\.*' -exec git add {} \; -exec echo {} \;
 
+# Tambine podemos recorrer la lista de ficheros en un bucle, que nos darian mas  
+# contros sobre los ficheros a cargar.
 #for i in $(find . -not -path '*/\.*')
 #do
 #	if [ $i != "." ] && [ $i != ".."  ]
